@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Shoes</title>
+    <link rel="stylesheet" href="buy.css">
+</head>
+<body>
+
+<div class="buy-form">
+    <h1>Buy Shoes</h1>
+    <form>
+        <label for="product">Product:</label>
+        <select id="product" name="product" required>
+            <option value="sneakers">Sneakers</option>
+            <option value="boots">Boots</option>
+            <option value="sandals">Sandals</option>
+            <option value="heels">Heels</option>
+        </select>
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="visanumber">   Visa Number</label>
+          <input type="text" id="visanumber" name="visanumber" required>
+        <label for="address">Shipping Address:</label>
+        <textarea id="address" name="address" rows="3" required></textarea>
+
+        <button type="submit"><a href="confimar.html">Buy Now</a></button>
+    </form>
+    <button class="back-button" onclick="location.href='index.html'">Back to Home</button>
+</div>
+
+</body>
+</html>

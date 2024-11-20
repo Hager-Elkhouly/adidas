@@ -1,0 +1,54 @@
+/* إعداد خلفية الصفحة */
+body {
+    background: linear-gradient(#111, #222);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* تصميم رسالة تأكيد الشراء */
+.confirmation-message {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* تصميم أيقونة الصح */
+.checkmark {
+    font-size: 30px;
+    color: #4CAF50; /* لون أخضر للصح */
+    /* margin-bottom: 15px; */
+}
+
+/* تنسيق العنوان */
+.confirmation-message h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* تنسيق النص */
+.confirmation-message p {
+    font-size: 18px;
+    margin: 0;
+}
+.back-button {
+    background-color: #444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover {
+    background-color: red;
+}
